@@ -57,7 +57,7 @@
             <form action="{{ route('user.jobs.apply', $job->id) }}" method="POST">
                 @csrf
                 <button class="btn btn-success w-100">
-                    <i class="bi bi-send"></i> Apply Sekarang
+                    <i class="bi bi-send"></i> Submit Sekarang
                 </button>
             </form>
 
